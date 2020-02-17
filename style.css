@@ -1,0 +1,214 @@
+* {
+  font-family: 'Mukta', sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: right;
+  border-right: 1px solid grey;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+/* Change the color of links on hover */
+li a:hover {
+  background-color: #eee;
+}
+
+.heroTitle {
+  background-image: url('images/water-02.jpg');
+  height: 110vh;
+  margin-top: -300px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainTitleText {
+  font-size: 250pt;
+  color: #fff;
+  text-align: center;
+  padding: 300px;
+  margin-top: 128px;
+}
+
+.mainContainer {
+  padding-top: 150px;
+}
+
+.sectionHeader {
+  font-size: 32pt;
+  color: black;
+  margin-top: 0px;
+  padding-top: 64px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 64px;
+  color: grey;
+  font-size: 16pt;
+}
+
+.size {
+  width: 100vw;
+  height: 60vh;
+}
+
+.contentContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+.part-two {
+  background-color: #eee;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+
+p {
+  font-size: 21pt;
+  color: black;
+  padding: 25px;
+  text-align: center;
+}
+
+.part-three {
+  background-image: url('images/water-02-transparent.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionHeaderTwo {
+  color: grey;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cardContainer {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  opacity: 1;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  width: 33%;
+  height: 33%;
+}
+
+.one:hover {
+  opacity: 0.8;
+}
+.two:hover {
+  opacity: 0.8;
+}
+.three:hover {
+  opacity: 0.8;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.backgroundtwo {
+  background-image: url('images/water-03.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+  margin-bottom: 64px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  margin-left: 90px;
+  margin-right: 40px;
+  margin-bottom: -100px;
+}
+
+.natureBackground {
+  background-image: url('images/nature.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroTitleTwo {
+  background-image: url('images/image-02.jpg');
+  height: 110vh;
+  margin-top: -300px;
+  width: 100vw;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heroTitleThree {
+  background-image: url('images/image-01.jpg');
+  height: 120vh;
+  margin-top: -300px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroTitleFour {
+  background-image: url('images/image-03.jpg');
+  height: 120vh;
+  margin-top: -300px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 64px;
+  font-size: 21px;
+}
