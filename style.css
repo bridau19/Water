@@ -1,42 +1,62 @@
+/* rules for entire page */
 * {
+  /* applies font Mukta from Google style sheet */
   font-family: 'Mukta', sans-serif;
+  /* box sizing property border-box include border and padding in element total width and height for layout */
   box-sizing: border-box;
 }
 
-
+/* set margin and padding for entire body to 0px */
 body {
-
   margin: 0px;
   padding: 0px;
 }
 
+/* set margin and padding for entire html page to 0px */
 html {
   margin: 0px;
   padding: 0px;
 }
 
+/* rules for unordered list */
 ul {
+  /* no style type gets ride of bullet point */
   list-style-type: none;
+  /* fixed position keeps nav bar at top of screen */
   position: fixed;
+  /* sets width of bar to 100% of viewing window */
   width: 100vw;
+  /* sets display mode to flex to create responsive flex contianer that adjusts fro screen size*/
   display: flex;
+  /* padding set to 0px */
   padding: 0;
+  /* set margin to 0px */
   margin: 0;
-  overflow: hidden;
+  /* color of bar is white */
   background-color: #fff;
 }
 
+/* rules for list items */
 li {
+  /* supposed to float items right?? */
   float: right;
+  /* puts 1px grey border division lines to right of items */
   border-right: 1px solid grey;
 }
 
+/* rules for list item links */
 li a {
+  /* makes each link its own block section */
   display: block;
+  /* text color black */
   color: black;
+  /* centers text in box */
   text-align: center;
+  /* 5px padding */
   padding: 5px;
+  /* gets ride of link underline */
   text-decoration: none;
+  /* sets font size */
   font-size: 14pt;
 }
 
@@ -45,15 +65,21 @@ li a:hover {
   background-color: #eee;
 }
 
-.heroTitle {
+/* rules for main image on home html page*/
+.mainImage {
+  /* sets image as background */
   background-image: url('images/water-02.jpg');
+  /* height is 100% viewport height */
   height: 110vh;
+  /* negative margin to put image on top of page */
   margin-top: -300px;
-  width: 100vw;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
 }
 
+/* rules for website title text */
 .mainTitleText {
   font-size: 250pt;
   color: #fff;
@@ -62,10 +88,12 @@ li a:hover {
   margin-top: 128px;
 }
 
-.mainContainer {
+/* adds padding to top of entire page */
+.fullPage {
   padding-top: 150px;
 }
 
+/* rules for section headers */
 .sectionHeader {
   font-size: 32pt;
   color: black;
@@ -76,6 +104,7 @@ li a:hover {
   font-style: italic;
 }
 
+/* rules for styling button */
 .button {
   text-align: center;
   margin-bottom: 64px;
@@ -83,16 +112,15 @@ li a:hover {
   font-size: 16pt;
 }
 
+/* sizing rules for added water image */
 .size {
+  /* 100% viewport width */
   width: 100vw;
+  /* 60% viewport height */
   height: 60vh;
 }
 
-.contentContainer {
-  padding: 0px;
-  margin: 0px;
-}
-
+/* rules for making background of a section grey */
 .part-two {
   background-color: #eee;
   padding: 0px;
@@ -100,6 +128,7 @@ li a:hover {
   width: 100vw;
 }
 
+/* styling for all p tag elements */
 p {
   font-size: 21pt;
   color: black;
@@ -107,62 +136,83 @@ p {
   text-align: center;
 }
 
+/* rules for making background of a section transparent water image */
 .part-three {
+  /* sets image as background */
   background-image: url('images/water-02-transparent.jpg');
   height: 100%;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
 }
 
-.sectionHeaderTwo {
-  color: grey;
-  text-decoration: none;
-  text-align: center;
-}
-
+/* rules for spacing of learn more cards in learn more section */
 .cardContainer {
   margin-top: 64px;
   margin-bottom: 64px;
   padding: 35px;
+  /* sets display mode to flex to create responsive flex contianer that adjusts fro screen size*/
   display: flex;
+  /* justifies content so that space between elements is equal */
   justify-content: space-between;
 }
 
+/* rules for spacing of images in columns */
 .thumbnail {
+  /* full opacity */
   opacity: 1;
   margin-top: 64px;
   margin-bottom: 32px;
+  /* width size 33% screen */
   width: 33%;
+  /* height size 33% screen */
   height: 33%;
 }
 
+/* sets hover behavior for card one*/
 .one:hover {
+  /* opacity at 80% */
   opacity: 0.8;
 }
+/* sets hover behavior for card two*/
 .two:hover {
+  /* opacity at 80% */
   opacity: 0.8;
 }
+/* sets hover behavior for card three*/
 .three:hover {
+  /* opacity at 80% */
   opacity: 0.8;
 }
 
-.columnContainer {
+/* class columns organizes paragrpahs inot columns*/
+.columns {
+  /* sets display mode to flex to create responsive flex contianer that adjusts fro screen size*/
   display: flex;
+  /* justifies content so that space between elements is equal */
   justify-content: center;
   padding: 20px;
 }
 
+/* class makes background dark water image for a section */
 .backgroundtwo {
+  /* sets image as background */
   background-image: url('images/water-03.jpg');
   height: 100%;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
   padding: 25px;
   margin-bottom: 64px;
 }
 
+/* class to set spacing for icons in home page */
 .imageContainer {
+  /* sets display mode to flex to create responsive flex container that adjusts fro screen size*/
   display: flex;
+  /* justifies content so that space between elements is equal */
   justify-content: space-between;
   padding: 70px;
   margin-left: 90px;
@@ -170,37 +220,53 @@ p {
   margin-bottom: -100px;
 }
 
+/* class makes background nature image for a section */
 .natureBackground {
+  /* sets image as background */
   background-image: url('images/nature.jpg');
+  /* height is 100% of container */
   height: 100%;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
 }
 
+/* rules for main image on footprint html page*/
 .heroTitleTwo {
+  /* sets image as background */
   background-image: url('images/image-02.jpg');
   height: 110vh;
+  /* negative margin to put image on top of page */
   margin-top: -300px;
-  width: 100vw;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: bottom;
 }
 
+/* rules for main image on world html page*/
 .heroTitleThree {
+  /* sets image as background */
   background-image: url('images/image-01.jpg');
   height: 120vh;
+  /* negative margin to put image on top of page */
   margin-top: -300px;
-  width: 100vw;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
 }
 
+/* rules for main image on saving html page*/
 .heroTitleFour {
   background-image: url('images/image-03.jpg');
   height: 120vh;
+  /* negative margin to put image on top of page */
   margin-top: -300px;
-  width: 100vw;
+  /* makes sure image covers entire container */
   background-size: cover;
+  /* centers background image position */
   background-position: center;
 }
 

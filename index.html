@@ -3,65 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title>Water</title>
+    <!-- css style sheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- w3schools css style sheet for button-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- google style sheet for Mukta sans serif font -->
     <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
   </head>
   <body>
 
+    <!-- unordered bulleted list tag for top navigation bar -->
     <ul>
+      <!-- list tag lists page names and <a> tag for links to pages -->
       <li><a href=index.html>Home</a></li>
       <li><a href=footprint.html>Water Footprint</a></li>
       <li><a href=saving.html>Saving Water</a></li>
       <li><a href=world.html>The World</a></li>
     </ul>
 
-    <div class="mainContainer">
-
-      <div class="heroTitle">
+    <!-- div section with class for main container -->
+    <div class="fullPage">
+      <!-- div section with class for main image (hero title) -->
+      <div class="mainImage">
+        <!-- h1 header for main topic of website -->
         <h1 class="mainTitleText">water</h1>
       </div>
 
-      <div class="contentContainer">
-
+        <!-- h2 section header for subtitle -->
         <h2 class="sectionHeader">How much water are you really using?</h2>
+        <!-- div with class button for styling the learn more button -->
         <div class="button">
+        <!-- button tag creates button and classes change button style using w3schools style sheet -->
         <button class="w3-btn w3-border w3-round-xxlarge w3-padding-large"><a href="#learn-more">LEARN MORE</a></button>
         </div>
-
+        <!-- insert water image to break up page-->
         <img class="size" src="images/water-03.jpg">
-
+        <!-- div contains info section with class part-two for grey background -->
         <div class="part-two">
-        <h2 class="sectionHeader">Why should we conserve water?</h2>
-        <p>Wasting water due to unnecessary or excessive water usage is a huge problem in today's modern world. Since water, energy, and food are all interconnected, it is crucial to conserve and protect our water resources to grow and produce crops, produce energy, and create products. Many people use more water in a day than they think. Water may seem abundant from an individual standpoint, but water shortages can happen anywhere in the country and at any time. In fact, water managers in 40 out of 50 states predict water shortages in the coming decade.  </p>
+          <!-- h2 header for info section title -->
+          <h2 class="sectionHeader">Why should we conserve water?</h2>
+          <!-- paragraph with description on why we should save water-->
+          <p>Wasting water due to unnecessary or excessive water usage is a huge problem in today's modern world. Since water, energy, and food are all interconnected, it is crucial to conserve and protect our water resources to grow and produce crops, produce energy, and create products. Many people use more water in a day than they think. Water may seem abundant from an individual standpoint, but water shortages can happen anywhere in the country and at any time. In fact, water managers in 40 out of 50 states predict water shortages in the coming decade.</p>
         </div>
-
-          <h2 class="sectionHeader">Fast Facts</h2>
-            <div class="imageContainer">
+        <!-- h2 header for fast facts section title -->
+        <h2 class="sectionHeader">Fast Facts</h2>
+          <!-- div with class imageContainer to organize png icons -->
+          <div class="imageContainer">
+              <!-- pngs eith icons inserted with image tag, size specified for each to make them all the same size -->
              <img src="images/hamburger.png" width="90" height="90">
              <img src="images/soda.png"  width="100" height="100">
              <img src="images/phone.png"  width="100" height="100">
              <img src="images/jeans.png"  width="135" height="135">
-            </div>
-
-            <div class="columnContainer">
+          </div>
+          <!-- div with class columns makes paragraphs into side by side columns -->
+          <div class="columns">
+            <!-- paragraph tags with facts about water use in everyday products -->
             <p>It takes 660 gallons of water to make a hamburger</p>
             <p>It takes 46 gallons of water to make 17 ounces of soda</p>
             <p>One smart phone takes 3,190 gallons of water to make</p>
             <p>A pair of jeans uses 2,108 gallons of water</p>
-          </div>
-
-        <div class="part-three">
-            <a id="learn-more"><div class="cardContainer">
+         </div>
+         <!-- div with class part-three to set transparent image as background -->
+         <div class="part-three">
+           <!-- a tag with id connects button to this section of the page -->
+           <!-- dive with class cardContainer sets styling for learn more card images in this section -->
+           <a id="learn-more"><div class="cardContainer">
+             <!-- image tags with class thumbnail for spacing and opacity, classes one two and three set hover directions -->
              <img class="thumbnail one" src="images/card-01.png">
              <img class="thumbnail two" src="images/card-02.png">
              <img class="thumbnail three" src="images/card-03.png">
-            </div></a>
+           </div></a>
         </div>
 
       </div>
-
-    </div>
 
   </body>
 </html>
