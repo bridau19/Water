@@ -236,6 +236,7 @@ p {
 .heroTitleTwo {
   /* sets image as background */
   background-image: url('images/image-02.jpg');
+  /* height 110% viewport height */
   height: 110vh;
   /* negative margin to put image on top of page */
   margin-top: -300px;
@@ -260,6 +261,7 @@ p {
 
 /* rules for main image on saving html page*/
 .heroTitleFour {
+  /* sets image as background */
   background-image: url('images/image-03.jpg');
   height: 120vh;
   /* negative margin to put image on top of page */
@@ -270,10 +272,14 @@ p {
   background-position: center;
 }
 
+/* rules for table, header, and content cells */
 table, th, td {
+  /* creates border around cells in table */
   border: 1px solid white;
+  /* collapses boreders into one line*/
   border-collapse: collapse;
   padding: 15px;
+  /* centers text in cells*/
   text-align: center;
   margin-bottom: 64px;
   font-size: 21px;
